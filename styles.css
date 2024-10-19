@@ -3,3 +3,22 @@ body {
     height: 100% !important;
     margin: 0 !important;
 }
+
+#socials-container {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (min-width: 992px) {
+    #socials-container {
+        justify-content: end;
+    }
+}
+
+@media (min-width: 768px) {
+    #background {
+        height: 100vh;
+    }
+}
